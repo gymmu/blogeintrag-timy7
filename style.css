@@ -6,14 +6,11 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: rgb(240, 241, 207);
   font-family: sans-serif;
 }
 
 body {
-  /* komentar */
-  background-image: url("https://i.pinimg.com/236x/e4/fa/34/e4fa34bb5bd9c5d1d3931523f683936b.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  /*Image in a certain space, background for title  */
+  /* украинский ландшафт, земля, Карпаты, воды, леса */
 }
