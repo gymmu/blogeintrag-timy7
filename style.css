@@ -14,3 +14,36 @@ body {
   /*Image in a certain space, background for title  */
   /* украинский ландшафт, земля, Карпаты, воды, леса */
 }
+.text-center {
+  text-align: center;
+}
+
+.big {
+  font-size: 36pt;
+}
+.large {
+  font-size: 46pt;
+}
+.biggergap {
+  margin-top: 50px;
+}
+
+.text-next-to-img {
+  display: grid;
+  grid-template-columns: 70% auto; /* gibt an wie der Platz aufgeteilt wird. */
+  gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
+}
+
+/* Gibt Stiele für den Textblock an. */
+.text-next-to-img > .text {
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+}
+
+/* Macht dass das Bild die Breite des Containers annimmt. */
+.text-next-to-img > img {
+  width: 100%;
+}
+.round-img {
+  border-radius: 90px;
+}
