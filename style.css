@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-color: rgb(240, 241, 207);
   font-family: sans-serif;
+  background-fullscreen: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldatlas.com%2Farticles%2Fthe-most-breathtaking-landscapes-of-ukraine.html&psig=AOvVaw0lO56jPivzxoI52tsjHpwW&ust=1695319892838000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiUkfHkuYEDFQAAAAAdAAAAABAE ;
 }
 
 body {
@@ -25,12 +26,12 @@ body {
   font-size: 46pt;
 }
 .biggergap {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .text-next-to-img {
   display: grid;
-  grid-template-columns: 70% auto; /* gibt an wie der Platz aufgeteilt wird. */
+  grid-template-columns: 50% auto; /* gibt an wie der Platz aufgeteilt wird. */
   gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
 }
 
@@ -46,4 +47,7 @@ body {
 }
 .round-img {
   border-radius: 90px;
+}
+.img-background {
+  background-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldatlas.com%2Farticles%2Fthe-most-breathtaking-landscapes-of-ukraine.html&psig=AOvVaw0lO56jPivzxoI52tsjHpwW&ust=1695319892838000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiUkfHkuYEDFQAAAAAdAAAAABAE ;
 }
