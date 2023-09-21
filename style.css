@@ -6,45 +6,54 @@
 
 body {
   margin: 0;
-  background-color: rgb(240, 241, 207);
+  background-color: rgb(255, 255, 255);
   font-family: sans-serif;
-  background-fullscreen: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldatlas.com%2Farticles%2Fthe-most-breathtaking-landscapes-of-ukraine.html&psig=AOvVaw0lO56jPivzxoI52tsjHpwW&ust=1695319892838000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiUkfHkuYEDFQAAAAAdAAAAABAE ;
+  background-image: url(https://wallpapers-fenix.eu/full/180901/054401159.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: contain;
 }
+ 
 
-body {
-  /*Image in a certain space, background for title  */
-  /* украинский ландшафт, земля, Карпаты, воды, леса */
-}
-.text-center {
+
+.white {
+  color: beige;
+ }
+.center {
   text-align: center;
 }
-
 .big {
-  font-size: 36pt;
+  font-size: 50pt;
 }
 .large {
-  font-size: 46pt;
+  font-size: 55pt;
 }
 .biggergap {
   margin-top: 80px;
 }
 
+.sticky {
+  position: sticky;
+  top: auto;
+}
+
 .text-next-to-img {
   display: grid;
+img
   grid-template-columns: 70% auto; /* gibt an wie der Platz aufgeteilt wird. */
   gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
 }
 
 /* Gibt Stiele für den Textblock an. */
 .text-next-to-img > .text {
-  border: 1px solid lightgray;
+  border: 1px solid rgb(106, 73, 238);
+  
   padding: 1rem 2rem;
 }
 
 /* Macht dass das Bild die Breite des Containers annimmt. */
-.text-next-to-img {
- img width: 50%;
-}
-.round-img {
-  border-radius: 90px;
+.image {
+  width: 500px;
+  
+
 }
