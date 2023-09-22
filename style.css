@@ -5,20 +5,25 @@
 }
 
 body {
-
 background-image: url(https://wallpapers-fenix.eu/full/180901/054401159.jpg );
- width: 50%;
-height: px; 
+ width: 100%;
+height: 700px; 
  background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
-
 background-attachment: fixed;
 }
-   .abstand{
+
+.line {
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX6FK09gRkcpX42ZAnEmDDH6aYxN57GmOUDg&usqp=CAU);
+background-position: ;
+}
+   .abstand{right: 150pt;
     margin-top: 180px;
    }
-
+.abstand2{
+  margin-bottom: 80px;
+}
 .white {
   color: beige;
  }
@@ -35,14 +40,11 @@ background-attachment: fixed;
   margin-top: 120px;
 }
 
-.sticky {
-  position: sticky;
-  top: auto;
-}
 
 .text-next-to-img {
+  object-position: 100%;
   margin: auto;
-  margin-top: 50px;
+  background-color: beige;
   display: grid;
   grid-template-columns: 50% auto; /* gibt an wie der Platz aufgeteilt wird. */
   gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
@@ -51,7 +53,7 @@ background-attachment: fixed;
 /* Gibt Stiele für den Textblock an. */
 .text-next-to-img > .text {
   border: 1px solid rgb(244, 51, 51);
-  
+  font-size: 50pt;
   padding: 1rem 2rem;
 }
 
@@ -71,7 +73,7 @@ background-attachment: fixed;
   align-items: center;
   position: relative;
   width: 100%;
-  height: 320px;
+  height: 500px;
 }
 
 /* Setze den Container mit dem Inhalt vor den Hintergrund, damit können sich
