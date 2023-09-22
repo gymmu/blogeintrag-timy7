@@ -9,11 +9,15 @@ body {
   background-color: rgb(255, 255, 255);
   font-family: sans-serif;
   background-image: url(https://wallpapers-fenix.eu/full/180901/054401159.jpg);
-background-position: center top;
+  background-attachment: local
+   background-position: center top;
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 }
- .margin { }
+
+   .abstand{
+    margin-top: 180px;
+   }
 
 .white {
   color: beige;
@@ -22,13 +26,13 @@ background-size: contain;
   text-align: center;
 }
 .big {
-  font-size: 50pt;
+  font-size: 80pt;
 }
 .large {
-  font-size: 55pt;
+  font-size: 100pt;
 }
 .biggergap {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .sticky {
@@ -93,4 +97,3 @@ background-size: contain;
 .container-with-bg > div.bg-img > img {
   width: 100%;
   transform: translateY(-50%);
-}
