@@ -6,6 +6,54 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: rgb(255, 255, 255);
   font-family: sans-serif;
+  background-image: url(https://wallpapers-fenix.eu/full/180901/054401159.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: contain;
 }
+ 
+
+
+.white {
+  color: beige;
+ }
+.center {
+  text-align: center;
+}
+.big {
+  font-size: 50pt;
+}
+.large {
+  font-size: 55pt;
+}
+.biggergap {
+  margin-top: 80px;
+}
+
+.sticky {
+  position: sticky;
+  top: auto;
+}
+
+.text-next-to-img {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% auto; /* gibt an wie der Platz aufgeteilt wird. */
+  gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
+}
+
+/* Gibt Stiele für den Textblock an. */
+.text-next-to-img > .text {
+  border: 1px solid rgb(244, 51, 51);
+  
+  padding: 1rem 2rem;
+}
+
+/* Macht dass das Bild die Breite des Containers annimmt. */
+.image {
+  width: 100%;
+  text-align: center;
+}
+
