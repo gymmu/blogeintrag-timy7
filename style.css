@@ -38,22 +38,22 @@ background-size: contain;
 }
 
 .text-next-to-img {
+  margin-top: 50px;
   display: grid;
-img
-  grid-template-columns: 70% auto; /* gibt an wie der Platz aufgeteilt wird. */
+  grid-template-columns: 50% auto; /* gibt an wie der Platz aufgeteilt wird. */
   gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
 }
 
 /* Gibt Stiele für den Textblock an. */
 .text-next-to-img > .text {
-  border: 1px solid rgb(106, 73, 238);
+  border: 1px solid rgb(244, 51, 51);
   
   padding: 1rem 2rem;
 }
 
 /* Macht dass das Bild die Breite des Containers annimmt. */
 .image {
-  width: 500px;
+  width: 100%;
   text-align: center;
 }
 
