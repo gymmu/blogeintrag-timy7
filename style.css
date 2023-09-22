@@ -5,16 +5,16 @@
 }
 
 body {
-  margin: 0;
-  background-color: rgb(255, 255, 255);
-  font-family: sans-serif;
-  background-image: url(https://wallpapers-fenix.eu/full/180901/054401159.jpg);
-  background-attachment: local
-   background-position: center top;
+
+background-image: url(https://wallpapers-fenix.eu/full/180901/054401159.jpg );
+ width: 50%;
+height: px; 
+ background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
-}
 
+background-attachment: fixed;
+}
    .abstand{
     margin-top: 180px;
    }
@@ -41,6 +41,7 @@ background-size: cover;
 }
 
 .text-next-to-img {
+  margin: auto;
   margin-top: 50px;
   display: grid;
   grid-template-columns: 50% auto; /* gibt an wie der Platz aufgeteilt wird. */
