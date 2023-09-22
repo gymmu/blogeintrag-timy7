@@ -13,8 +13,7 @@ background-position: center top;
 background-repeat: no-repeat;
 background-size: contain;
 }
- 
-
+ .margin { }
 
 .white {
   color: beige;
@@ -57,3 +56,41 @@ background-size: contain;
   text-align: center;
 }
 
+
+
+
+/* Zentriere alle Elemente in dem Container, setze die Höhe und die Breite fest. */
+.container-with-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 320px;
+}
+
+/* Setze den Container mit dem Inhalt vor den Hintergrund, damit können sich
+   Elemente überlappen. */
+.container-with-bg > div.content {
+  top: 20px;
+  left: 30px;
+  width: 50%;
+  color: white;
+  z-index: 1;
+  position: absolute;
+}
+
+/* Nimm den Bild-Container aus dem normalen Dokumentenfluss raus, und verstecke
+   alles was über das enthaltende Element heraus läuft. */
+.container-with-bg > div.bg-img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Skaliere das Bild auf die volle Breite und zentriere es vertikal. */
+.container-with-bg > div.bg-img > img {
+  width: 100%;
+  transform: translateY(-50%);
+}
